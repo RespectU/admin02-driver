@@ -1,14 +1,10 @@
-package TaxiCall;
+package CallBus;
 
-public class OrderDeclined extends AbstractEvent {
+public class OrderAgreed extends AbstractEvent {
 
     private Long driverId;
     private String status;
     private Long orderId;
-
-    public OrderDeclined(){
-        super();
-    }
 
     public Long getDriverId() {
         return driverId;
@@ -30,5 +26,4 @@ public class OrderDeclined extends AbstractEvent {
     public void setOrderId(Long orderId) {
         this.orderId = orderId;
     }
-
 }

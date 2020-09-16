@@ -1,4 +1,4 @@
-package TaxiCall;
+package CallBus;
 
 import javax.persistence.*;
 import org.springframework.beans.BeanUtils;
